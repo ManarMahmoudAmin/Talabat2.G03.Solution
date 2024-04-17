@@ -9,7 +9,7 @@ using Talabat.Infrastructure.Data;
 
 namespace Talabat.Infrastructure.Data.Migrations
 {
-    [DbContext(typeof(StoreContext))]
+    [DbContext(typeof(TalabatStoreContext))]
     partial class StoreContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

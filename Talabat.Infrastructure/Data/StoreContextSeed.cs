@@ -10,7 +10,7 @@ namespace Talabat.Infrastructure.Data
 {
     public static class StoreContextSeed
     {
-        public static async Task SeedAsync(StoreContext dbContext)
+        public static async Task SeedAsync(TalabatStoreContext dbContext)
         {
             if (!dbContext.ProductBrands.Any())
             {

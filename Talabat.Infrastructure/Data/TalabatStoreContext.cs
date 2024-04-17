@@ -9,9 +9,9 @@ using Talabat.Core.Entities;
 
 namespace Talabat.Infrastructure.Data
 {
-    public class StoreContext : DbContext
+    public class TalabatStoreContext : DbContext
     {
-        public StoreContext(DbContextOptions<StoreContext> options) : base(options) 
+        public TalabatStoreContext(DbContextOptions<TalabatStoreContext> options) : base(options) 
         {
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
